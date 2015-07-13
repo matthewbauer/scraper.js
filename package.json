@@ -1,4 +1,5 @@
 {
+  "main": "scrape.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register test.js"
   },
