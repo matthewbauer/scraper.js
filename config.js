@@ -5,14 +5,17 @@ System.config({
     "*": "*.js",
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js"
-  }
+  },
+  "defaultJSExtensions": true
 });
 
 System.config({
   "map": {
     "chai": "npm:chai@3.0.0",
     "cheerio": "npm:cheerio@0.19.0",
+    "json": "github:systemjs/plugin-json@0.1.0",
     "mocha": "npm:mocha@2.2.5",
+    "text": "github:systemjs/plugin-text@0.0.2",
     "traceur": "github:jmcriffey/bower-traceur@0.0.88",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88",
     "github:jspm/nodelibs-assert@0.1.0": {

@@ -1,8 +1,11 @@
 {
+  "Document": "https://dom.spec.whatwg.org/#document",
+  "Element": "https://dom.spec.whatwg.org/#element",
+  "EventHandler": "https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler",
   "requestFullscreen": "https://fullscreen.spec.whatwg.org/#dom-element-requestfullscreen",
-  "fullscreenEnabled": "https://fullscreen.spec.whatwg.org/#dom-document-fullscreenEnabled",
-  "fullscreenElement": "https://fullscreen.spec.whatwg.org/#dom-document-fullscreenElement",
-  "exitFullscreen": "https://fullscreen.spec.whatwg.org/#dom-document-exitFullscreen",
+  "exitFullscreen": "https://fullscreen.spec.whatwg.org/#dom-document-exitfullscreen",
+  "fullscreenEnabled": "https://fullscreen.spec.whatwg.org/#dom-document-fullscreenenabled",
+  "fullscreenElement": "https://fullscreen.spec.whatwg.org/#dom-document-fullscreenelement",
   "onfullscreenchange": "https://fullscreen.spec.whatwg.org/#handler-document-onfullscreenchange",
   "onfullscreenerror": "https://fullscreen.spec.whatwg.org/#handler-document-onfullscreenerror"
 }
